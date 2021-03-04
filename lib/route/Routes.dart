@@ -24,7 +24,7 @@ class Routes {
   static String collectListPage = '/user/collect';
   static String userSharePage = '/user/share';
 
-  static void configureRoutes(Router router) {
+  static void configureRoutes(FluroRouter router) {
     router.notFoundHandler = new Handler(
         handlerFunc: (BuildContext context, Map<String, List<String>> params) {
       print('ERROR====>ROUTE WAS NOT FONUND!!!');

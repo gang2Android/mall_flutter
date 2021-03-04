@@ -45,7 +45,7 @@ class _UserLoginPageState extends State<UserLoginPage> {
         centerTitle: true,
       ),
       body: _bodyView(),
-      resizeToAvoidBottomPadding: false,
+      resizeToAvoidBottomInset: false,
     );
   }
 

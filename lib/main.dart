@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    final router = Router();
+    final router = FluroRouter();
     Routes.configureRoutes(router);
     App.router = router;
     LogUtil.init(isDebug: true);
